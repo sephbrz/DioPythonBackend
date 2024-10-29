@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "05-api-assincrona-com-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Marcello Alvear"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {version = "*", extras = ["standard"]}
+databases = {version = "*", extras = ["aiosqlite"]}
+bcrypt = "*"
+pyjwt = "*"
+python-dotenv = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
